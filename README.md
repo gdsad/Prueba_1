@@ -77,6 +77,12 @@ The model is completely defined by the positions of its 3D points:
 
 g = g_0 + S*\sigma + A*\alpha
 
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
+bla bla
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+
 The pose of the face model (P) is given by its position and orientation with respect to the camera:
 
 {tx; ty; tz; \theta_x; \theta_y; \theta_z}
