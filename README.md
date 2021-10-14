@@ -100,11 +100,18 @@ So, the full face model is deffined by:
 
 Candide-3 Face Model: 
 
-**AGREGAR IMAGEN**
+<p float="left">
+  <img src="figs/Candide3.png" width="300" style="margin: 0px 50px 0px 0px;" />
+  <img src="figs/Candide3_AUVs_original.png" width="300" /> 
+</p>
+
 
 Proposed Asymmetric Candide-3 Face Model:
 
-**AGREGAR IMAGEN**
+<p float="left">
+  <img src="figs/Candide3_asymmetric.png" width="300" style="margin: 0px 50px 0px 0px;" />
+  <img src="figs/Candide3_AUVs_asymetric.png" width="300" /> 
+</p>
 
 
 ## FaceTrack
