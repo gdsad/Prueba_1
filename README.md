@@ -13,6 +13,8 @@
 <!-- Slides ------------------------------------------------>
 Currently, Neurologists and Speech Language Pathologist (SLP) expressed the need to have a tool that allows the extraction of facial parameters of a patient. This will allow **objectively quantify** specific characteristics of interest, since to date these measurements are only based on the **subjective vision** of the professional.
 
+![Ejemplos](Prueba_1/figs/intro_face_analysis.png)
+
 In this work, a novel tool for facial and gesture analysis aiming to **quantify** different subjective measures employed in the Speech Language Pathologist area is proposed.
 
 It is not intended to identify and classify any type of patient disease,
@@ -20,7 +22,7 @@ but rather to be a tool that provides measurable parameters to help
 the professional to make an **objective diagnosis** of the patient.
 
 ## Highlights
-* An adaptation of the 3D face model Candide-3 based on a new set of animation units (AU), is presented for eciently handling asymmetric facial gestures.
+* An adaptation of the 3D face model Candide-3 based on a new set of animation units (AU), is presented for efficiently handling asymmetric facial gestures.
 * In the face tracking stage, a new fusion scheme between the adapted 3D symmetric face model and a facial landmarks model is proposed, in order to specifically increase the effectiveness in measuring the parameters of interest.
 * A novel set of facial parameters, useful in SLP applications, are defined based on the new set of animation units previously mentioned.
 * An application front-end was also developed, in order to facili-
@@ -31,11 +33,11 @@ tate its use.
 
 
 ## Related Work
-Although there exists a large number of works where dierent methods to track faces are presented, most of them are focused mostly on applications of video editing, biometric analysis, lip reading, etc., and very few on obtaining facial parameters used in the SLP area.
+Although there exists a large number of works where different methods to track faces are presented, most of them are focused mostly on applications of video editing, biometric analysis, lip reading, etc., and very few on obtaining facial parameters used in the SLP area.
 
 Moreover, most of them use symmetrical 3D face models, i.e., the movements of the left and right side are the same.
 
-For SLP applications, where a large field of study is facial paralysis, which generally implies that movement on one side of the face (left or right) is partially aected, such an assumption is not acceptable.
+For SLP applications, where a large field of study is facial paralysis, which generally implies that movement on one side of the face (left or right) is partially affected, such an assumption is not acceptable.
 
 
 ## General Information
@@ -54,7 +56,7 @@ structure, and controlled by Shape and Actions Units (SU/AU).
 * Global AU: Rotations around axes
 * Local AU: Face expressions
 
-The model is completely dened by the positions of its 3D points:
+The model is completely defined by the positions of its 3D points:
 
 g = g_0 + S*\sigma + A*\alpha
 
@@ -79,7 +81,7 @@ Proposed Asymmetric Candide-3 Face Model:
 ## FaceTrack
 
 ### Face Model Adaptation
-In this stage, the values of the vector \sigma, which aects the SU, must be chosen in order to fit the 3D model on the person's face.
+In this stage, the values of the vector \sigma, which affects the SU, must be chosen in order to fit the 3D model on the person's face.
 
 * Adjust pose P.
 * Adjust the position and shape of the eyes, mouth, etc.
@@ -102,7 +104,7 @@ Each estimation is based on the projection of a set of vertices of the asymmetri
 
 **AGREGAR IMAGEN**
 
-An error metric is dened to select the best pose estimation: the norm between the 2D point tracked by Optical Flow and the 2D projection of the 3D vertex obtained with the pose estimated by the Levenberg-Marquardt method,
+An error metric is defined to select the best pose estimation: the norm between the 2D point tracked by Optical Flow and the 2D projection of the 3D vertex obtained with the pose estimated by the Levenberg-Marquardt method,
 
 **AGREGAR FORMULA**
 
@@ -133,7 +135,7 @@ were designed in conjunction with a group of SLPs.
 **AGREGAR IMAGEN**
 
 ### Facial Gesture Measurements
-Facial gestures are a combination of dierent facial movements, and therefore they can be measured through an appropriate combination of the activation levels of the AUVs proposed in work.
+Facial gestures are a combination of different facial movements, and therefore they can be measured through an appropriate combination of the activation levels of the AUVs proposed in work.
 
 **AGREGAR IMAGEN**
 
