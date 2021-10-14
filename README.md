@@ -75,13 +75,17 @@ structure, and controlled by Shape and Actions Units (SU/AU).
 
 The model is completely defined by the positions of its 3D points:
 
-g = g_0 + S*\sigma + A*\alpha
+<!-- g = g_0 + S*\sigma + A*\alpha -->
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+<!-- https://latex.codecogs.com/ -->
+<img src="https://latex.codecogs.com/svg.image?g&space;=&space;\overline{g}&space;&plus;&space;S.\sigma&space;&plus;&space;A.\alpha" title="g = \overline{g} + S.\sigma + A.\alpha" />
+
+
+<!-- <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
 bla bla
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" /> -->
 
 The pose of the face model (P) is given by its position and orientation with respect to the camera:
 
