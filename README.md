@@ -23,6 +23,7 @@ chau chau  -->
 
 <p float="left">
   <img src="figs/intro_face_analysis.png" width="300" />
+  </br> 
   <img src="figs/intro_face_paralysis.png" width="300" /> 
 </p>
 
