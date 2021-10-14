@@ -87,14 +87,16 @@ bla bla
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" /> -->
 
-The pose of the face model (P) is given by its position and orientation with respect to the camera:
+The pose of the face model (P) is given by its position and orientation with respect to the camer
+a:
 
-{tx; ty; tz; \theta_x; \theta_y; \theta_z}
+<!-- {tx; ty; tz; \theta_x; \theta_y; \theta_z} -->
+<img src="https://latex.codecogs.com/svg.image?\{&space;t_x,&space;t_y,&space;t_z,&space;\theta_x,&space;\theta_y,&space;\theta_z\}" title="\{ t_x, t_y, t_z, \theta_x, \theta_y, \theta_z\}" />
 
 So, the full face model is deffined by:
 
-{tx; ty; tz; \theta_x; \theta_y; \theta_z; \sigma; \alpha}
-
+<!-- {tx; ty; tz; \theta_x; \theta_y; \theta_z; \sigma; \alpha} -->
+<img src="https://latex.codecogs.com/svg.image?\{&space;t_x,&space;t_y,&space;t_z,&space;\theta_x,&space;\theta_y,&space;\theta_z,&space;\sigma,&space;\alpha\}" title="\{ t_x, t_y, t_z, \theta_x, \theta_y, \theta_z, \sigma, \alpha\}" />
 
 Candide-3 Face Model: 
 
