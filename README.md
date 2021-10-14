@@ -15,7 +15,17 @@ Currently, Neurologists and Speech Language Pathologist (SLP) expressed the need
 
 <!-- ![Ejemplos](Prueba_1/figs/intro_face_analysis.png) -->
 <!-- ![Ejemplos](gdsad.github.com/Prueba_1/figs/intro_face_analysis.png) -->
-![Ejemplos](figs/intro_face_analysis.png)
+<!-- ![Ejemplos](figs/intro_face_analysis.png) -->
+<img src="figs/intro_face_analysis.png" alt="alt text" width=300>
+<img src="figs/intro_face_paralysis.png" alt="alt text" width=300>
+
+chau chau 
+
+<p float="left">
+  <img src="figs/intro_face_analysis.png" width="300" />
+  <img src="figs/intro_face_paralysis.png" width="300" /> 
+</p>
+
 
 In this work, a novel tool for facial and gesture analysis aiming to **quantify** different subjective measures employed in the Speech Language Pathologist area is proposed.
 
