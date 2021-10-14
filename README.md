@@ -21,8 +21,13 @@ Currently, Neurologists and Speech Language Pathologist (SLP) expressed the need
 
 chau chau  -->
 
-<p float="left">
+
+<!-- <p float="left">
   <img src="figs/intro_face_analysis.png" width="300" />
+  <img src="figs/intro_face_paralysis.png" width="300" /> 
+</p> -->
+<p float="left">
+  <img src="figs/intro_face_analysis.png" width="300" style="margin: 0px 50px 0px 0px;" />
   <img src="figs/intro_face_paralysis.png" width="300" /> 
 </p>
 
@@ -64,8 +69,8 @@ For SLP applications, where a large field of study is facial paralysis, which ge
 ## Asymmetric 3D Face Model
 Candide-3 is a parameterized face model deffined by a triangular mesh
 structure, and controlled by Shape and Actions Units (SU/AU).
-* SU: Deforms base model.
-* Global AU: Rotations around axes
+* Shape Units (SU): Deforms base model.
+* Global Action Units (AU): Rotations around axes
 * Local AU: Face expressions
 
 The model is completely defined by the positions of its 3D points:
