@@ -14,8 +14,8 @@
 Currently, Neurologists and Speech Language Pathologist (SLP) expressed the need to have a tool that allows the extraction of facial parameters of a patient. This will allow **objectively quantify** specific characteristics of interest, since to date these measurements are only based on the **subjective vision** of the professional.
 
 <!-- ![Ejemplos](Prueba_1/figs/intro_face_analysis.png) -->
-![Ejemplos](gdsad.github.com/Prueba_1/figs/intro_face_analysis.png)
-
+<!-- ![Ejemplos](gdsad.github.com/Prueba_1/figs/intro_face_analysis.png) -->
+![Ejemplos](figs/intro_face_analysis.png)
 
 In this work, a novel tool for facial and gesture analysis aiming to **quantify** different subjective measures employed in the Speech Language Pathologist area is proposed.
 
