@@ -135,7 +135,7 @@ The shape parameter vector \sigma is obtained and a textured model is generated.
 In this stage, three pose estimation are calculated in each frame:
 
 * Based on the previous frame t-1.
-* Based on the initial keyframe (rendered with the P0 pose).
+* Based on the initial keyframe (rendered with the P_0 pose).
 * Based on the keyframe t-1 (rendered with the P_t-1 pose).
 
 Each estimation is based on the projection of a set of vertices of the asymmetric 3D face model, using the iterative optimization method of Levenberg-Marquardt and Lucas-Kanade pyramidal Optical Flow.
@@ -162,8 +162,8 @@ A method based on Local Binary Features is employed to detect 68 facial landmark
 
 The same methodology as in the case of pose estimation is employed to determine the best estimate: Levenberg-Marquardt, Lucas-Kanade pyramidal Optical Flow, error metric.
 
-<img src="figs/Gesture_estimation.png" width="auto" />
-
+<!-- <img src="figs/Gesture_estimation.png" width="auto" /> -->
+<img src="figs/Gesture_estimation_v2.png" width="auto" />
 
 
 ## Features Extraction
@@ -174,12 +174,16 @@ especially SLP, the selected features (distances and facial gestures)
 were designed in conjunction with a group of SLPs.
 
 ### Distance Measurements
-**AGREGAR IMAGEN**
+
+<img src="figs/Distance_measurements.png" width="auto" />
+
+
 
 ### Facial Gesture Measurements
 Facial gestures are a combination of different facial movements, and therefore they can be measured through an appropriate combination of the activation levels of the AUVs proposed in work.
 
-**AGREGAR IMAGEN**
+<img src="figs/Gesture_measurements_L.png" width="auto" />
+<img src="figs/Gesture_measurements_R.png" width="auto" />
 
 
 ## Evaluation
@@ -187,9 +191,8 @@ Facial gestures are a combination of different facial movements, and therefore t
 * P2: Patient with a facial paralysis on the left side of the face.
 * Setup: Patients repeat 3 times each of the 6 gestures proposed in this work.
 
-**AGREGAR IMAGEN**
-
-**AGREGAR TABLA**
+<img src="figs/Test_rec_v1.png" width="auto" />
+<img src="figs/test_tabla_rec_v1b.png" width="auto" />
 
 
 * P1 results: The measurements obtained are similar for both sides of the face.
