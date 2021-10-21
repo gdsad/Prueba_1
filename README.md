@@ -42,8 +42,7 @@ the professional to make an **objective diagnosis** of the patient.
 * An adaptation of the 3D face model Candide-3 based on a new set of animation units (AU), is presented for efficiently handling asymmetric facial gestures.
 * In the face tracking stage, a new fusion scheme between the adapted 3D symmetric face model and a facial landmarks model is proposed, in order to specifically increase the effectiveness in measuring the parameters of interest.
 * A novel set of facial parameters, useful in SLP applications, are defined based on the new set of animation units previously mentioned.
-* An application front-end was also developed, in order to facili-
-tate its use.
+* An application front-end was also developed, in order to facilitate its use.
 
 ## Tech Stack
 - It is made in C++, using Qt framework, OpenCV 4.3.0 and ALGlib 3.16.0. 
@@ -68,7 +67,7 @@ For SLP applications, where a large field of study is facial paralysis, which ge
 
 ## Asymmetric 3D Face Model
 Candide-3 is a parameterized face model deffined by a triangular mesh
-structure, and controlled by Shape and Actions Units (SU/AU).
+structure, and controlled by Shape and Actions Units (SU/AU):
 * Shape Units (SU): Deforms base model.
 * Global Action Units (AU): Rotations around axes
 * Local AU: Face expressions
@@ -87,8 +86,7 @@ bla bla
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" /> -->
 
-The pose of the face model (P) is given by its position and orientation with respect to the camer
-a:
+The pose of the face model (P) is given by its position and orientation with respect to the camera:
 
 <!-- {tx; ty; tz; \theta_x; \theta_y; \theta_z} -->
 <img src="https://latex.codecogs.com/svg.image?\{&space;t_x,&space;t_y,&space;t_z,&space;\theta_x,&space;\theta_y,&space;\theta_z\}" title="\{ t_x, t_y, t_z, \theta_x, \theta_y, \theta_z\}" />
@@ -119,7 +117,7 @@ Proposed Asymmetric Candide-3 Face Model:
 <img src="figs/FaceTrack_DB.png" width="auto" />
 
 ### Face Model Adaptation
-In this stage, the values of the vector \sigma, which affects the SU, must be chosen in order to fit the 3D model on the person's face.
+In this stage, the values of the vector &sigma, which affects the SU, must be chosen in order to fit the 3D model on the person's face.
 
 * Adjust pose P.
 * Adjust the position and shape of the eyes, mouth, etc.
