@@ -219,7 +219,7 @@ If you only want to use the program (you do not want to compile it from source),
 This is a FaceTrack Installer only for Windows (see the video tutorial "FaceTrack/Video_tutorials/FaceTrack_installation.mkv" for detailed instructions).
 
 ## Citation
-This project was initially developed by Facundo Reyes and Julian Alvarez under the supervision of PhD. Gonzalo Sad in Universidad Nacional de Rosario. 
+This project was initially developed by Facundo Reyes and Julián Alvarez under the supervision of PhD. Gonzalo Sad in FCEIA, Universidad Nacional de Rosario, Argentina. 
 
 If our code helps your research, please consider citing the following paper:
 
