@@ -117,14 +117,14 @@ Proposed Asymmetric Candide-3 Face Model:
 <img src="figs/FaceTrack_DB.png" width="auto" />
 
 ### Face Model Adaptation
-In this stage, the values of the vector &sigma, which affects the SU, must be chosen in order to fit the 3D model on the person's face.
+In this stage, the values of the vector &sigma;, which affects the SU, must be chosen in order to fit the 3D model on the person's face.
 
 * Adjust pose P.
 * Adjust the position and shape of the eyes, mouth, etc.
 
 <img src="figs/Face_Model_Adaptation.png" width="auto" />
 
-The shape parameter vector \sigma is obtained and a textured model is generated. This textured face model is then used to create reference images (keyframes), for the estimation of the face pose in each frame of the video sequence.
+The shape parameter vector &sigma; is obtained and a textured model is generated. This textured face model is then used to create reference images (keyframes), for the estimation of the face pose in each frame of the video sequence.
 
 <img src="figs/keyframes.png" width="auto" />
 
@@ -151,7 +151,7 @@ An error metric is defined to select the best pose estimation: the norm between 
 
 
 ### Facial Expression Estimation
-In this stage, two facial expression are calculated in each frame:
+In this stage, the values of the vector &alpha; are determined. Two facial expression are calculated in each frame:
 
 * Based on the previous frame t-1.
 * Based on facial landmarks.
