@@ -207,24 +207,52 @@ The source code (C++) of FaceTrack is in the folder "FaceTrack/Source_code".
 It was developed using Qt framework, so you must to have Qt installed in your PC. 
 Two external libraries were employed:
 
-* OpenCv -> OpenCV 4.3.0 
-* ALGlib -> ALGlib 3.16.0. 
+* OpenCv &#8594; OpenCV 4.3.0 
+* ALGlib &#8594; ALGlib 3.16.0. 
 
 In order to compile the FaceTrack source code with Qt, first you have to download and compile this two libraries.
 
-Tenga en cuenta que luego debe configurar los directorios de dichas librerias en el archivo de configuracion "FaceTrack/Source_code/InterfazCandide.pro", para que Qt pueda encontrar dichas librerias.
+Keep in mind that you must then configure the directories of these libraries in the configuration file "FaceTrack/Source_code/InterfazCandide.pro", so Qt can find these libraries.
 
 ### Install
+If you only want to use the program (you do not want to compile it from source), you can use the installer located in "FaceTrack/Installers/setup.exe". Just double click and the installer will install the program.
+This is a FaceTrack Installer only for Windows (see the video tutorial "FaceTrack/Video_tutorials/FaceTrack_installation.mkv" for detailed instructions).
 
 ## Citation
 This project was initially developed by Facundo Reyes and Julian Alvarez under the supervision of PhD. Gonzalo Sad in Universidad Nacional de Rosario. 
 
 If our code helps your research, please consider citing the following paper:
+
 ```
+Gonzalo D. Sad, Facundo Reyes, and Julián Alvarez. 2021. FaceTrack: Asymmetric Facial and Gesture Analysis Tool for Speech Language Pathologist Applications. In Proceedings of the 1st Workshop on Facial Micro-Expression: Advanced Techniques for Facial Expressions Generation and Spotting (FME'21). Association for Computing Machinery, New York, USA, 1–10. DOI:https://doi.org/10.1145/3476100.3484460
+```
+
+
+**Bibtext:**
+```
+@inproceedings{FaceTrack_2021,
+author = {Sad, Gonzalo D. and Reyes, Facundo and Alvarez, Juli\'{a}n},
+title = {FaceTrack: Asymmetric Facial and Gesture Analysis Tool for Speech Language Pathologist Applications},
+year = {2021},
+isbn = {9781450386838},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3476100.3484460},
+doi = {10.1145/3476100.3484460},
+booktitle = {Proceedings of the 1st Workshop on Facial Micro-Expression: Advanced Techniques for Facial Expressions Generation and Spotting},
+pages = {1–10},
+numpages = {10},
+keywords = {asymmetric 3d face model, face tracking, gesture analysis},
+location = {Virtual Event, China},
+series = {FME'21}
+}
+```
+
+<!-- ```
 @inproceedings{Sad_Reyes_Alvarez_2021,
   title={FaceTrack: Asymmetric Facial and Gesture Analysis Tool for Speech Language Pathologist Applications},
   author={Sad, Gonzalo D. and Reyes, Facundo and Julián, Alvarez},
   booktitle={Proceedings of the 1st Workshop on Facial Micro-Expression: Advanced Techniques for Facial Expressions Generation and Spotting (FME'21)},
   year={2021}
 }
-```
+``` -->
