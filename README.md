@@ -104,11 +104,12 @@ So, the full face model is deffined by:
 <img src="https://latex.codecogs.com/svg.image?\{&space;t_x,&space;t_y,&space;t_z,&space;\theta_x,&space;\theta_y,&space;\theta_z,&space;\sigma,&space;\alpha\}" title="\{ t_x, t_y, t_z, \theta_x, \theta_y, \theta_z, \sigma, \alpha\}" />
 </p>
 
-
-<p float="left">
+<p align="center">
   <br>
-  <p align="center">
   Candide-3 Face Model
+</p>
+<p float="left">
+  <p align="center">
   <img src="figs/Candide3.png" width="300" style="margin: 0px 50px 0px 0px;" />
   <img src="figs/Candide3_AUVs_original.png" width="250" />
   </p>
