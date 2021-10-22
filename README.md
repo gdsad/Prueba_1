@@ -26,13 +26,13 @@ chau chau  -->
 
 <!-- <p float="left">
   <img src="figs/intro_face_analysis.png" width="300" />
-  <img src="figs/intro_face_paralysis.png" width="300" /> 
+  <img src="figs/intro_face_paralysis.png" width="300" />
 </p> -->
 <p float="left">
   <p align="center">
   <img src="figs/intro_face_analysis.png" width="300" style="margin: 0px 50px 0px 0px;" />
-  <img src="figs/intro_face_paralysis.png" width="300" /> 
-  </p>  
+  <img src="figs/intro_face_paralysis.png" width="300" />
+  </p>
 </p>
 
 
@@ -50,7 +50,7 @@ the professional to make an **objective diagnosis** of the patient.
 * An application front-end was also developed, in order to facilitate its use.
 
 ## Tech Stack
-- It is made in C++, using Qt framework, OpenCV 4.3.0 and ALGlib 3.16.0. 
+- It is made in C++, using Qt framework, OpenCV 4.3.0 and ALGlib 3.16.0.
 
 
 ## Related Work
@@ -126,7 +126,7 @@ So, the full face model is deffined by:
 <p float="left">
   <p align="center">
   <img src="figs/Candide3_asymmetric.png" width="300" style="margin: 0px 50px 0px 0px;" />
-  <img src="figs/Candide3_AUVs_asymetric.png" width="250" /> 
+  <img src="figs/Candide3_AUVs_asymetric.png" width="250" />
   </p>
 </p>
 
@@ -222,10 +222,7 @@ Facial gestures are a combination of different facial movements, and therefore t
 * P2: Patient with a facial paralysis on the left side of the face.
 * Setup: Patients repeat 3 times each of the 6 gestures proposed in this work.
 
-
-
-
-
+<p> <br> </p>
 
 <p align="center">
 <img src="figs/Test_rec_v1.png" width="auto" />
@@ -266,11 +263,11 @@ FaceTrack allow detecting asymmetric gestures and can also quantify such asymmet
 
 ### Compile
 The source code (C++) of FaceTrack is in the folder "FaceTrack/Source_code".
-It was developed using Qt framework, so you must to have Qt installed in your PC. 
+It was developed using Qt framework, so you must to have Qt installed in your PC.
 Two external libraries were employed:
 
-* OpenCv &#8594; OpenCV 4.3.0 
-* ALGlib &#8594; ALGlib 3.16.0. 
+* OpenCv &#8594; OpenCV 4.3.0
+* ALGlib &#8594; ALGlib 3.16.0.
 
 In order to compile the FaceTrack source code with Qt, first you have to download and compile this two libraries.
 
@@ -281,7 +278,7 @@ If you only want to use the program (you do not want to compile it from source),
 This is a FaceTrack Installer only for Windows (see the video tutorial "FaceTrack/Video_tutorials/FaceTrack_installation.mkv" for detailed instructions).
 
 ## Citation
-This project was initially developed by Facundo Reyes and Julián Alvarez under the supervision of PhD. Gonzalo Sad in FCEIA, Universidad Nacional de Rosario, Argentina. 
+This project was initially developed by Facundo Reyes and Julián Alvarez under the supervision of PhD. Gonzalo Sad in FCEIA, Universidad Nacional de Rosario, Argentina.
 
 If our code helps your research, please consider citing the following paper:
 
