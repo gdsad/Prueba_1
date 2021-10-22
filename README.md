@@ -233,7 +233,6 @@ Facial gestures are a combination of different facial movements, and therefore t
 </p>
 
 * P1 results: The measurements obtained are similar for both sides of the face.
-
 * P2 results: Left values are always lower for facial gestures and always higher for distance measurements, which is consistent with the left facial paralysis.
 
 <!-- **FaceTrack allow detecting asymmetric gestures and can also quantify such asymmetry**
