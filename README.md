@@ -80,8 +80,9 @@ The model is completely defined by the positions of its 3D points:
 <!-- g = g_0 + S*\sigma + A*\alpha -->
 
 <!-- https://latex.codecogs.com/ -->
+<p align="center">
 <img src="https://latex.codecogs.com/svg.image?g&space;=&space;\overline{g}&space;&plus;&space;S.\sigma&space;&plus;&space;A.\alpha" title="g = \overline{g} + S.\sigma + A.\alpha" />
-
+</p>
 
 <!-- <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
@@ -92,18 +93,24 @@ bla bla
 The pose of the face model (P) is given by its position and orientation with respect to the camera:
 
 <!-- {tx; ty; tz; \theta_x; \theta_y; \theta_z} -->
+<p align="center">
 <img src="https://latex.codecogs.com/svg.image?\{&space;t_x,&space;t_y,&space;t_z,&space;\theta_x,&space;\theta_y,&space;\theta_z\}" title="\{ t_x, t_y, t_z, \theta_x, \theta_y, \theta_z\}" />
+</p>
 
 So, the full face model is deffined by:
 
 <!-- {tx; ty; tz; \theta_x; \theta_y; \theta_z; \sigma; \alpha} -->
+<p align="center">
 <img src="https://latex.codecogs.com/svg.image?\{&space;t_x,&space;t_y,&space;t_z,&space;\theta_x,&space;\theta_y,&space;\theta_z,&space;\sigma,&space;\alpha\}" title="\{ t_x, t_y, t_z, \theta_x, \theta_y, \theta_z, \sigma, \alpha\}" />
+</p>
 
 Candide-3 Face Model: 
 
 <p float="left">
+  <p align="center">
   <img src="figs/Candide3.png" width="300" style="margin: 0px 50px 0px 0px;" />
-  <img src="figs/Candide3_AUVs_original.png" width="300" /> 
+  <img src="figs/Candide3_AUVs_original.png" width="250" /> 
+  </p>
 </p>
 
 
