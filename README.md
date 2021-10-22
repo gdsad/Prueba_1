@@ -116,7 +116,7 @@ Proposed Asymmetric Candide-3 Face Model:
 ## FaceTrack
 
 <p align="center">
-  <img src="figs/FaceTrack_DB.png" width="350" />
+  <img src="figs/FaceTrack_DB.png" width="450" />
 </p>
 
 ### Face Model Adaptation
