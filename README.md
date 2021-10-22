@@ -218,20 +218,25 @@ Facial gestures are a combination of different facial movements, and therefore t
 </p>
 
 ## Evaluation
+
+### Setup
 * P1: Patient without any condition or facial paralysis.
 * P2: Patient with a facial paralysis on the left side of the face.
 * Setup: Patients repeat 3 times each of the 6 gestures proposed in this work.
 
-<p> <br> </p>
+<br /> 
 
 <p align="center">
 <img src="figs/Test_rec_v1.png" width="auto" />
 </p>
 
+<br /> 
+
 <p align="center">
 <img src="figs/test_tabla_rec_v1b.png" width="600" />
 </p>
 
+### Results
 * P1 results: The measurements obtained are similar for both sides of the face.
 * P2 results: Left values are always lower for facial gestures and always higher for distance measurements, which is consistent with the left facial paralysis.
 
