@@ -41,7 +41,7 @@ It is not intended to identify and classify any type of patient disease,
 but rather to be a tool that provides measurable parameters to help
 the professional to make an **objective diagnosis** of the patient.
 
-![FaceTrack Example](figs/FaceTrack_example_short.gif)
+<!-- ![FaceTrack Example](figs/FaceTrack_example_short.gif) -->
 
 <p align="center">
 <img src="figs/FaceTrack_example_short.gif" alt="FaceTrack_example" width="auto">
