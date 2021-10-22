@@ -239,6 +239,10 @@ Facial gestures are a combination of different facial movements, and therefore t
 
 **FaceTrack allow detecting asymmetric gestures and can also quantify such asymmetry**
 
+<p align="center">
+  <br>
+  <b> <font size="+1"> FaceTrack allow detecting asymmetric gestures and can also quantify such asymmetry </b> </font>
+</p>
 
 ## How to use?
 
