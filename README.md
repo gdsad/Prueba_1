@@ -136,12 +136,15 @@ In this stage, the values of the vector &sigma;, which affects the SU, must be c
 * Adjust pose P.
 * Adjust the position and shape of the eyes, mouth, etc.
 
-<img src="figs/Face_Model_Adaptation.png" width="auto" />
+<p align="center">
+<img src="figs/Face_Model_Adaptation.png" width="500" />
+</p>
 
 The shape parameter vector &sigma; is obtained and a textured model is generated. This textured face model is then used to create reference images (keyframes), for the estimation of the face pose in each frame of the video sequence.
 
-<img src="figs/keyframes.png" width="auto" />
-
+<p align="center">
+<img src="figs/keyframes.png" width="500" />
+</p>
 
 ### Pose Estimation
 In this stage, three pose estimation are calculated in each frame:
@@ -152,7 +155,9 @@ In this stage, three pose estimation are calculated in each frame:
 
 Each estimation is based on the projection of a set of vertices of the asymmetric 3D face model, using the iterative optimization method of Levenberg-Marquardt and Lucas-Kanade pyramidal Optical Flow.
 
-<img src="figs/Pose_estimation_v2.png" width="auto" />
+<p align="center">
+<img src="figs/Pose_estimation_v2.png" width="500" />
+</p>
 
 An error metric is defined to select the best pose estimation: the norm between the 2D point tracked by Optical Flow and the 2D projection of the 3D vertex obtained with the pose estimated by the Levenberg-Marquardt method,
 
