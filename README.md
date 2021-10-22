@@ -26,12 +26,11 @@ chau chau  -->
   <img src="figs/intro_face_analysis.png" width="300" />
   <img src="figs/intro_face_paralysis.png" width="300" /> 
 </p> -->
-<p align="center">
 <p float="left">
   <img src="figs/intro_face_analysis.png" width="300" style="margin: 0px 50px 0px 0px;" />
   <img src="figs/intro_face_paralysis.png" width="300" /> 
 </p>
-</p>
+
 
 
 In this work, a novel tool for facial and gesture analysis aiming to **quantify** different subjective measures employed in the Speech Language Pathologist area is proposed.
@@ -116,7 +115,7 @@ Proposed Asymmetric Candide-3 Face Model:
 
 ## FaceTrack
 
-<img src="figs/FaceTrack_DB.png" width="auto" />
+<img src="figs/FaceTrack_DB.png" width="350" />
 
 ### Face Model Adaptation
 In this stage, the values of the vector &sigma;, which affects the SU, must be chosen in order to fit the 3D model on the person's face.
