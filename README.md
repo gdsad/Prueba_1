@@ -195,8 +195,9 @@ were designed in conjunction with a group of SLPs.
 
 ### Distance Measurements
 
-<img src="figs/Distance_measurements.png" width="auto" />
-
+<p align="center">
+<img src="figs/Distance_measurements.png" width="500" />
+</p>
 
 
 ### Facial Gesture Measurements
