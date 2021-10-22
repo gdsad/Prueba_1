@@ -251,6 +251,7 @@ FaceTrack allow detecting asymmetric gestures and can also quantify such asymmet
 <p align="center">
   <br>
   <b> <font size="5"> FaceTrack allow detecting asymmetric gestures and can also quantify such asymmetry </b> </font>
+  <br>
 </p>
 
 
