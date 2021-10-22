@@ -216,12 +216,16 @@ Facial gestures are a combination of different facial movements, and therefore t
 * Setup: Patients repeat 3 times each of the 6 gestures proposed in this work.
 
 
+
+
+
+
 <p align="center">
 <img src="figs/Test_rec_v1.png" width="auto" />
 </p>
 
 <p align="center">
-<img src="figs/test_tabla_rec_v1b.png" width="500" />
+<img src="figs/test_tabla_rec_v1b.png" width="600" />
 </p>
 
 * P1 results: The measurements obtained are similar for both sides of the face.
