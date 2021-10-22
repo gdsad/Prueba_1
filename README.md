@@ -182,8 +182,9 @@ A method based on Local Binary Features is employed to detect 68 facial landmark
 The same methodology as in the case of pose estimation is employed to determine the best estimate: Levenberg-Marquardt, Lucas-Kanade pyramidal Optical Flow, error metric.
 
 <!-- <img src="figs/Gesture_estimation.png" width="auto" /> -->
-<img src="figs/Gesture_estimation_v2.png" width="auto" />
-
+<p align="center">
+<img src="figs/Gesture_estimation_v2.png" width="500" />
+</p>
 
 ## Features Extraction
 After performing the facial tracking, this information (3D point coordinates, AUs activation values, etc.) will be processed to extract the features or morphological parameters of interest.
