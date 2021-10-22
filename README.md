@@ -183,7 +183,7 @@ The same methodology as in the case of pose estimation is employed to determine 
 
 <!-- <img src="figs/Gesture_estimation.png" width="auto" /> -->
 <p align="center">
-<img src="figs/Gesture_estimation_v2.png" width="500" />
+<img src="figs/Gesture_estimation_v2.png" width="600" />
 </p>
 
 ## Features Extraction
