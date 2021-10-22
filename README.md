@@ -204,10 +204,10 @@ were designed in conjunction with a group of SLPs.
 Facial gestures are a combination of different facial movements, and therefore they can be measured through an appropriate combination of the activation levels of the AUVs proposed in work.
 
 <p align="center">
-<img src="figs/Gesture_measurements_L.png" width="500" />
+<img src="figs/Gesture_measurements_L.png" width="600" />
 </p>
 <p align="center">
-<img src="figs/Gesture_measurements_R.png" width="500" />
+<img src="figs/Gesture_measurements_R.png" width="600" />
 </p>
 
 ## Evaluation
