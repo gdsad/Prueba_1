@@ -156,16 +156,18 @@ In this stage, three pose estimation are calculated in each frame:
 Each estimation is based on the projection of a set of vertices of the asymmetric 3D face model, using the iterative optimization method of Levenberg-Marquardt and Lucas-Kanade pyramidal Optical Flow.
 
 <p align="center">
-<img src="figs/Pose_estimation_v2.png" width="500" />
+<img src="figs/Pose_estimation_v2.png" width="400" />
 </p>
 
 An error metric is defined to select the best pose estimation: the norm between the 2D point tracked by Optical Flow and the 2D projection of the 3D vertex obtained with the pose estimated by the Levenberg-Marquardt method,
 
+<p align="center">
 <img src="https://latex.codecogs.com/svg.image?e&space;=&space;\sum_{i&space;\in&space;Q_p}&space;\lvert\lvert&space;\varphi_p(g_i,P)-\tilde{m}_{i}^{t}&space;\lvert\lvert" title="e = \sum_{i \in Q_p} \lvert\lvert \varphi_p(g_i,P)-\tilde{m}_{i}^{t} \lvert\lvert" />
 
 
 <img src="https://latex.codecogs.com/svg.image?\begingroup\setlength{\tabcolsep}{2pt}\begin{tabular}{cl}&space;&space;$\varphi_p(g_i,P)$&space;&space;&&space;$\rightarrow$&space;$3D$&space;point&space;$g_i$&space;projection&space;given&space;the&space;pose&space;$P$&space;at&space;frame&space;$t$.&space;\\&space;&space;$\tilde{m}_{i}^{t}$&space;&&space;$\rightarrow$&space;$2D$&space;point&space;estimation&space;by&space;Optical&space;Flow&space;at&space;frame&space;$t$.\\&space;&space;$Q_p$&space;&&space;$\rightarrow$&space;Set&space;of&space;vertex&space;indexes&space;used&space;for&space;pose&space;estimation.\end{tabular}&space;&space;&space;&space;\endgroup" title="\begingroup\setlength{\tabcolsep}{2pt}\begin{tabular}{cl} $\varphi_p(g_i,P)$ & $\rightarrow$ $3D$ point $g_i$ projection given the pose $P$ at frame $t$. \\ $\tilde{m}_{i}^{t}$ & $\rightarrow$ $2D$ point estimation by Optical Flow at frame $t$.\\ $Q_p$ & $\rightarrow$ Set of vertex indexes used for pose estimation.\end{tabular} \endgroup" />
 
+</p>
 
 
 
