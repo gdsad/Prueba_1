@@ -265,7 +265,7 @@ FaceTrack allow detecting asymmetric gestures and can also quantify such asymmet
 ## How to use?
 
 ### Compile
-The source code (C++) of FaceTrack is in the folder "FaceTrack/Source_code".
+The source code (C++) of FaceTrack is in the folder `FaceTrack/Source_code`.
 It was developed using Qt framework (v4.11.2), so you must to have Qt installed in your PC.
 Two external libraries were employed:
 
@@ -274,11 +274,11 @@ Two external libraries were employed:
 
 In order to compile the FaceTrack source code with Qt, first you have to download and compile this two libraries.
 
-Keep in mind that you must then configure the directories of these libraries in the configuration file "FaceTrack/Source_code/InterfazCandide.pro", so Qt can find these libraries.
+Keep in mind that you must then configure the directories of these libraries in the configuration file `FaceTrack/Source_code/InterfazCandide.pro`, so Qt can find these libraries.
 
 ### Install
-If you only want to use the program (you do not want to compile it from source), you can use the installer located in "FaceTrack/Installers/setup.exe". Just double click and the installer will install the program.
-This is a FaceTrack Installer only for Windows (see the video tutorial "FaceTrack/Video_tutorials/FaceTrack_installation.mkv" for detailed instructions).
+If you only want to use the program (you do not want to compile it from source), you can use the installer located in `FaceTrack/Installers/setup.exe`. Just double click and the installer will install the program.
+This is a FaceTrack Installer only for Windows (see the video tutorial `FaceTrack/Video_tutorials/FaceTrack_installation.mkv` for detailed instructions).
 
 ## Citation
 This project was initially developed by Facundo Reyes and Julián Alvarez under the supervision of PhD. Gonzalo Sad in FCEIA, Universidad Nacional de Rosario, Argentina.
