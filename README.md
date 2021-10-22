@@ -237,7 +237,7 @@ Facial gestures are a combination of different facial movements, and therefore t
 
 * P2 results: Left values are always lower for facial gestures and always higher fordistance measurements, which is consistent with the left facial paralysis.
 
-**FaceTrack allow detecting asymmetric gestures and can also quantify such asymmetry**
+<!-- **FaceTrack allow detecting asymmetric gestures and can also quantify such asymmetry**
 
 ```
 **FaceTrack allow detecting asymmetric gestures and can also quantify such asymmetry**
@@ -245,7 +245,7 @@ Facial gestures are a combination of different facial movements, and therefore t
 
 ```
 FaceTrack allow detecting asymmetric gestures and can also quantify such asymmetry
-```
+``` -->
 
 
 <p align="center">
@@ -254,9 +254,9 @@ FaceTrack allow detecting asymmetric gestures and can also quantify such asymmet
 </p>
 
 
-<p align="center">
+<!-- <p align="center">
   <font size="5"> FaceTrack allow detecting asymmetric gestures and can also quantify such asymmetry </font>
-</p>
+</p> -->
 
 
 ## How to use?
