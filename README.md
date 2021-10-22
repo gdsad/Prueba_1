@@ -108,9 +108,7 @@ Candide-3 Face Model:
 
 <p float="left">
   <p align="center">
-  <p valign="center">
   <img src="figs/Candide3.png" width="300" style="margin: 0px 50px 0px 0px;" />
-  </p>
   <img src="figs/Candide3_AUVs_original.png" width="250" /> 
   </p>
 </p>
