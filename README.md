@@ -112,9 +112,7 @@ So, the full face model is deffined by:
 <p float="left">
   <p align="center">
   <img src="figs/Candide3.png" width="300" style="margin: 0px 50px 0px 0px;" />
-  <figcaption>Chau chau</figcaption>
-  <img src="figs/Candide3_AUVs_original.png" width="250" title="Original AUVss"/>
-  <figcaption>Hola que tal</figcaption>
+  <img src="figs/Candide3_AUVs_original.png" width="250" alt= "asd" title="Original AUVss"/>
   </p>
 </p>
     <!-- Candide-3 Face Model           Original AUVs -->
