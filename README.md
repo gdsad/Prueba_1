@@ -196,7 +196,7 @@ were designed in conjunction with a group of SLPs.
 ### Distance Measurements
 
 <p align="center">
-<img src="figs/Distance_measurements.png" width="550" />
+<img src="figs/Distance_measurements.png" width="500" />
 </p>
 
 
