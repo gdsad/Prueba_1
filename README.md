@@ -105,23 +105,21 @@ So, the full face model is deffined by:
 </p>
 
 
-<p align="center">
-  Candide-3 Face Model
-</p>
-
 <p float="left">
+  <br>
   <p align="center">
+  Candide-3 Face Model
   <img src="figs/Candide3.png" width="300" style="margin: 0px 50px 0px 0px;" />
-  <img src="figs/Candide3_AUVs_original.png" width="250" alt= "asd" title="Original AUVss"/>
+  <img src="figs/Candide3_AUVs_original.png" width="250" />
   </p>
 </p>
     <!-- Candide-3 Face Model           Original AUVs -->
 
 
-Proposed Asymmetric Candide-3 Face Model:
-
 <p float="left">
+<br>
   <p align="center">
+  Proposed Asymmetric Candide-3 Face Model:
   <img src="figs/Candide3_asymmetric.png" width="300" style="margin: 0px 50px 0px 0px;" />
   <img src="figs/Candide3_AUVs_asymetric.png" width="250" /> 
   </p>
