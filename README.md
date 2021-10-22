@@ -36,14 +36,12 @@ chau chau  -->
 </p>
 
 
-
 In this work, a novel tool for facial and gesture analysis aiming to **quantify** different subjective measures employed in the Speech Language Pathologist area is proposed.
-
-![FaceTrack Example](figs/FaceTrack_example_short.gif)
-
 It is not intended to identify and classify any type of patient disease,
 but rather to be a tool that provides measurable parameters to help
 the professional to make an **objective diagnosis** of the patient.
+
+![FaceTrack Example](figs/FaceTrack_example_short.gif)
 
 ## Highlights
 * An adaptation of the 3D face model Candide-3 based on a new set of animation units (AU), is presented for efficiently handling asymmetric facial gestures.
