@@ -138,10 +138,10 @@ So, the full face model is deffined by:
 </p>
 
 ### Face Model Adaptation
-In this stage, the values of the vector &sigma;, which affects the SU, must be chosen in order to fit the 3D model on the person's face.
+In this stage, the values of the vector &sigma;, which affects the SU, must be chosen in order to fit the 3D model on the person's face:
 
-* Adjust pose P.
-* Adjust the position and shape of the eyes, mouth, etc.
+1. Adjust pose P.
+2. Adjust the position and shape of the eyes, mouth, etc.
 
 <p align="center">
 <img src="figs/Face_Model_Adaptation.png" width="500" />
