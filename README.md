@@ -43,6 +43,10 @@ the professional to make an **objective diagnosis** of the patient.
 
 ![FaceTrack Example](figs/FaceTrack_example_short.gif)
 
+<p align="center">
+<img src="figs/FaceTrack_example_short.gif" alt="FaceTrack_example" width="auto">
+</p>
+
 ## Highlights
 * An adaptation of the 3D face model Candide-3 based on a new set of animation units (AU), is presented for efficiently handling asymmetric facial gestures.
 * In the face tracking stage, a new fusion scheme between the adapted 3D symmetric face model and a facial landmarks model is proposed, in order to specifically increase the effectiveness in measuring the parameters of interest.
