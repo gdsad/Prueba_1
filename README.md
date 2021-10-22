@@ -39,6 +39,8 @@ chau chau  -->
 
 In this work, a novel tool for facial and gesture analysis aiming to **quantify** different subjective measures employed in the Speech Language Pathologist area is proposed.
 
+![FaceTrack Example](figs/FaceTrack_example_short.gif)
+
 It is not intended to identify and classify any type of patient disease,
 but rather to be a tool that provides measurable parameters to help
 the professional to make an **objective diagnosis** of the patient.
