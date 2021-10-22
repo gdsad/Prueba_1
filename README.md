@@ -159,8 +159,8 @@ The shape parameter vector &sigma; is obtained and a textured model is generated
 In this stage, three pose estimation are calculated in each frame:
 
 * Based on the previous frame t-1.
-* Based on the initial keyframe (rendered with the P_0 pose).
-* Based on the keyframe t-1 (rendered with the P_t-1 pose).
+* Based on the initial keyframe (rendered with the P<sub>0</sub> pose).
+* Based on the keyframe t-1 (rendered with the P<sub>t-1</sub> pose).
 
 Each estimation is based on the projection of a set of vertices of the asymmetric 3D face model, using the iterative optimization method of Levenberg-Marquardt and Lucas-Kanade pyramidal Optical Flow.
 
