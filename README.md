@@ -59,9 +59,7 @@ the professional to make an **objective diagnosis** of the patient.
 
 ## Related Work
 Although there exists a large number of works where different methods to track faces are presented, most of them are focused mostly on applications of video editing, biometric analysis, lip reading, etc., and very few on obtaining facial parameters used in the SLP area.
-
 Moreover, most of them use symmetrical 3D face models, i.e., the movements of the left and right side are the same.
-
 For SLP applications, where a large field of study is facial paralysis, which generally implies that movement on one side of the face (left or right) is partially affected, such an assumption is not acceptable.
 
 
