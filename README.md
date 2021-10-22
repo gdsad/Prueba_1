@@ -115,7 +115,9 @@ Proposed Asymmetric Candide-3 Face Model:
 
 ## FaceTrack
 
-<img src="figs/FaceTrack_DB.png" width="350" />
+<p align="center">
+  <img src="figs/FaceTrack_DB.png" width="350" />
+</p>
 
 ### Face Model Adaptation
 In this stage, the values of the vector &sigma;, which affects the SU, must be chosen in order to fit the 3D model on the person's face.
