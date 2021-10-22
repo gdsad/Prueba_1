@@ -27,8 +27,10 @@ chau chau  -->
   <img src="figs/intro_face_paralysis.png" width="300" /> 
 </p> -->
 <p float="left">
+  <p align="center">
   <img src="figs/intro_face_analysis.png" width="300" style="margin: 0px 50px 0px 0px;" />
   <img src="figs/intro_face_paralysis.png" width="300" /> 
+  </p>  
 </p>
 
 
