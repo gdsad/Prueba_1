@@ -236,7 +236,7 @@ Facial gestures are a combination of different facial movements, and therefore t
 
 * P1 results: The measurements obtained are similar for both sides of the face.
 
-* P2 results: Left values are always lower for facial gestures and always higher fordistance measurements, which is consistent with the left facial paralysis.
+* P2 results: Left values are always lower for facial gestures and always higher for distance measurements, which is consistent with the left facial paralysis.
 
 <!-- **FaceTrack allow detecting asymmetric gestures and can also quantify such asymmetry**
 
@@ -265,7 +265,7 @@ FaceTrack allow detecting asymmetric gestures and can also quantify such asymmet
 
 ### Compile
 The source code (C++) of FaceTrack is in the folder "FaceTrack/Source_code".
-It was developed using Qt framework, so you must to have Qt installed in your PC.
+It was developed using Qt framework (v4.11.2), so you must to have Qt installed in your PC.
 Two external libraries were employed:
 
 * OpenCv &#8594; OpenCV 4.3.0
