@@ -203,9 +203,12 @@ were designed in conjunction with a group of SLPs.
 ### Facial Gesture Measurements
 Facial gestures are a combination of different facial movements, and therefore they can be measured through an appropriate combination of the activation levels of the AUVs proposed in work.
 
-<img src="figs/Gesture_measurements_L.png" width="auto" />
-<img src="figs/Gesture_measurements_R.png" width="auto" />
-
+<p align="center">
+<img src="figs/Gesture_measurements_L.png" width="500" />
+</p>
+<p align="center">
+<img src="figs/Gesture_measurements_R.png" width="500" />
+</p>
 
 ## Evaluation
 * P1: Patient without any condition or facial paralysis.
