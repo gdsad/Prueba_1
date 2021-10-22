@@ -117,8 +117,10 @@ Candide-3 Face Model:
 Proposed Asymmetric Candide-3 Face Model:
 
 <p float="left">
+  <p align="center">
   <img src="figs/Candide3_asymmetric.png" width="300" style="margin: 0px 50px 0px 0px;" />
-  <img src="figs/Candide3_AUVs_asymetric.png" width="300" /> 
+  <img src="figs/Candide3_AUVs_asymetric.png" width="250" /> 
+  </p>
 </p>
 
 
