@@ -52,9 +52,7 @@ the professional to make an **objective diagnosis** of the patient.
 * In the face tracking stage, a new fusion scheme between the adapted 3D symmetric face model and a facial landmarks model is proposed, in order to specifically increase the effectiveness in measuring the parameters of interest.
 * A novel set of facial parameters, useful in SLP applications, are defined based on the new set of animation units previously mentioned.
 * An application front-end was also developed, in order to facilitate its use.
-
-## Tech Stack
-- It is made in C++, using Qt framework, OpenCV 4.3.0 and ALGlib 3.16.0.
+* It is made in C++, using Qt framework, OpenCV 4.3.0 and ALGlib 3.16.0.
 
 
 ## Related Work
